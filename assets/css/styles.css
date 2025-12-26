@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #platforms_container {
     display: flex;
     flex-direction: column;
@@ -5,10 +11,8 @@
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 15px;
-    margin-bottom: 20px;
     overflow-x: auto;
     flex-wrap: wrap;
-
 }
 
 .platforms {
